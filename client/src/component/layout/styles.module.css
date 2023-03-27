@@ -1,0 +1,48 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkcyan;
+  color: azure !important;
+  align-items: center;
+  font-size: 1.2rem !important;
+  font-weight: bold;
+  padding: 10px 50px;
+}
+
+.navbar div {
+  display: flex;
+  gap: 20px;
+}
+
+.left span,
+.right span {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  width: 98.5%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  background-color: darkcyan;
+  place-items: center;
+  justify-content: center;
+  color: azure;
+  padding: 10px 50px;
+}

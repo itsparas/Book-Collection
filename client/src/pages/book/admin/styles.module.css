@@ -1,0 +1,14 @@
+.password {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 10px !important;
+}
+
+.from {
+  padding: 10px;
+}
